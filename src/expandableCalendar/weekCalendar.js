@@ -213,7 +213,7 @@ class WeekCalendar extends Component {
     return (
       <View
         testID={this.props.testID}
-        style={[allowShadow && this.style.containerShadow, !hideDayNames && {paddingBottom: 6}]}
+        style={[allowShadow && this.style.containerShadow]}
       >
         {!hideDayNames && (
           <View style={[this.style.week, {marginTop: 12, marginBottom: -2}]}>
